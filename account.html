@@ -29,13 +29,15 @@
 					<p>With an account you can save videos to watch later. You can also like and follow the filmmakers that posted them! And of course, you can post your own films on the site by creating a <em>studio account</em>.</p>
 					<p>Account are easy to make and only take a few moments of your time.</p>
 
-					<div id="signup" >
+					<div id="signupContainer" >
+						<form id = signupSheet>
+
 					<input type="text" id="username" class="signUp" placeholder="Username" autocomplete="off" /><div class="signUpSpacer"></div>
 					<input type="text" id="password" class="signUp" placeholder="Password" autocomplete="off"/><div class="signUpSpacer"></div>
 					<input type="email" id="email" class="signUp" placeholder="email@domain.com" autocomplete="off"/><div class="signUpSpacer"></div>
-					<div class="test">
-						<input type="submit" id="signUpButton" value="Sign up" />
-					</div>
+						<input type="button" id="signUpButton" value="Sign up" onclick="signupForm()"/>
+
+						</form>
 					<div id="orLogin">
 						<p>Or <a class="goldLink" href="#BLANK">Login<a></p>
 					</div>
@@ -43,6 +45,12 @@
 				</div>
 			</div>
 		</div>
+
+		<script>
+			function signupForm() {
+
+			}
+		</script>
 
 
 
